@@ -1,0 +1,15 @@
+[submodule "lib/bootstrap"]
+	path = lib/bootstrap
+	url = https://github.com/twbs/bootstrap
+[submodule "lib/github-submodule-updater"]
+	path = lib/github-submodule-updater
+	url = https://github.com/bornemix/github-submodule-updater
+[submodule "lib/lessphp"]
+	path = lib/lessphp
+	url = https://github.com/leafo/lessphp
+[submodule "lib/font-awesome"]
+	path = lib/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome
+[submodule "lib/codemirror"]
+	path = lib/codemirror
+	url = https://github.com/marijnh/codemirror
