@@ -105,6 +105,10 @@ function ajax_generate_rdf_batch(){
 
   //
 
+  if(!file_exists('output')){
+    mkdir('output');
+  }
+
   $out_filename = 'output/' . date('Y-m-d') . '.xml';
   
   $out_handle = fopen($out_filename, $skip == 0 ? 'w' : 'a');
